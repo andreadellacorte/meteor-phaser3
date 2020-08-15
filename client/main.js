@@ -1,5 +1,7 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.css' // this is the default BS theme as example
 
 import './main.html';
 

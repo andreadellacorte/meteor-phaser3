@@ -2,11 +2,20 @@
   <title>simple-todos</title>
 </head>
 
-<body>
-  <h1>Welcome to Meteor!</h1>
+<body class="d-flex flex-column h-100">
+  <main role="main" class="flex-shrink-0">
+    <div class="container">
+      <h1 class="mt-5">Sticky footer</h1>
 
-  {{> hello}}
-  {{> info}}
+      <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+      </div>
+
+      <p class="lead">{{> hello}}</p>
+      <p>{{> info}}</p>
+
+    </div>
+  </main>
 </body>
 
 <template name="hello">
