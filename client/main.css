@@ -1,4 +1,13 @@
+/* CSS declarations go here */
 body {
-  padding: 10px;
-  font-family: sans-serif;
+    background: #000;
+    text-align: center;
+}
+canvas {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
 }

@@ -1,34 +1,11 @@
 <head>
-  <title>simple-todos</title>
+  <title>example-meteor</title>
 </head>
 
-<body class="d-flex flex-column h-100">
-  <main role="main" class="flex-shrink-0">
-    <div class="container">
-      <h1 class="mt-5">Sticky footer</h1>
-
-      <div class="alert alert-primary" role="alert">
-        A simple primary alert—check it out!
-      </div>
-
-      <p class="lead">{{> hello}}</p>
-      <p>{{> info}}</p>
-
-    </div>
-  </main>
+<body>
+  {{> game}}
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-</template>
-
-<template name="info">
-  <h2>Learn Meteor!</h2>
-  <ul>
-    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
-    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
-    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
-    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
-  </ul>
+<template name="game">
+	{{game}}
 </template>
